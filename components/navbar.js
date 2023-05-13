@@ -2,17 +2,20 @@ import React from "react";
 import navbar from "./navbar.module.css";
 
 export default function Navbar() {
+	const menu_item = [
+		{ title: "Home" },
+		{ title: "Services" },
+		{ title: "Contact" },
+		{ title: "Technologies" },
+		{ title: "Hardware" },
+		{ title: "Software" },
+		{ title: "About" },
+	];
 	return (
 		<div className={navbar.header}>
-			<ul>
-				<li>Home</li>
-				<li>Service</li>
-				<li>Contact</li>
-				<li>Technologies</li>
-				<li>Hardware</li>
-				<li>Software</li>
-				<li>About Us</li>
-			</ul>
+			{
+				menu_item.map
+			}
 		</div>
 	);
 }

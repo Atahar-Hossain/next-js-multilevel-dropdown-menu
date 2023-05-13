@@ -9,8 +9,8 @@
 	align-items: center;
 }
 .header ul li {
-	color: rgb(19, 110, 190);
+	color: white;
 	list-style: none;
 	border-right: 1px solid white;
-	height: 40px;
+	padding: 10px 20px;
 }
