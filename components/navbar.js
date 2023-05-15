@@ -20,6 +20,7 @@ export default function Navbar() {
 		{ id: 5, title: "Hardware" },
 		{ id: 6, title: "Software" },
 		{ id: 7, title: "About" },
+		{ id: 7, title: "About" },
 	];
 
 	return (
