@@ -5,3 +5,27 @@
 body {
 	font-family: "Courier New", Courier, monospace;
 }
+
+/* menuItem css start here */
+#submenuButton {
+	display: flex;
+	align-items: center;
+	background-color: transparent;
+	color: white;
+	border: transparent;
+	font-size: 20px;
+
+	cursor: pointer;
+}
+.arrowDown {
+	border-top: 0.5rem solid gray;
+	border-right: 0.4rem solid transparent;
+	border-left: 0.4rem solid transparent;
+	margin-left: 10px;
+}
+.arrowRight {
+	border-top: 0.5rem solid gray;
+	border-right: 0.4rem solid transparent;
+	border-left: 0.4rem solid transparent;
+	margin-left: 10px;
+}

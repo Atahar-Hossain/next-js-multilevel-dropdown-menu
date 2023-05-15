@@ -19,14 +19,22 @@ export default function Navbar() {
 		{ id: 4, title: "Technologies" },
 		{ id: 5, title: "Hardware" },
 		{ id: 6, title: "Software" },
-		{ id: 7, title: "About" },
+		{
+			id: 7,
+			title: "About",
+			submenu: [
+				{ id: 7.1, title: "About Us" },
+				{ id: 7.2, title: "Mission" },
+				{ id: 7.3, title: "Vission" },
+			],
+		},
 	];
 
 	return (
 		<div className={navbar.header}>
 			<ul>
 				{menu_items.map((item) => {
-					return <MenuItem item={item} key={item.id} />;
+					return <MenuItem item={item} key={item.id} depth={1} />;
 				})}
 			</ul>
 		</div>
