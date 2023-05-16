@@ -1,5 +1,4 @@
 import React from "react";
-import navbar from "./navbar.module.css";
 import MenuItem from "./menuItem";
 
 export default function Navbar() {
@@ -31,10 +30,10 @@ export default function Navbar() {
 	];
 
 	return (
-		<div className={navbar.header}>
+		<div className="header">
 			<ul>
 				{menu_items.map((item) => {
-					return <MenuItem item={item} key={item.id} depth={1} />;
+					return <MenuItem item={item} key={item.title} depth={1} />;
 				})}
 			</ul>
 		</div>

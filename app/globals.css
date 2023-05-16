@@ -5,27 +5,25 @@
 body {
 	font-family: "Courier New", Courier, monospace;
 }
+body ul li {
+	text-decoration: none;
+	list-style: none;
+}
 
 /* menuItem css start here */
-#submenuButton {
+.header {
+	width: 1280px;
+	margin: auto;
+}
+.header ul {
 	display: flex;
+	justify-content: center;
 	align-items: center;
-	background-color: transparent;
+	background-color: black;
+	border-radius: 8px;
+}
+.header ul li {
 	color: white;
-	border: transparent;
-	font-size: 20px;
-
-	cursor: pointer;
-}
-.arrowDown {
-	border-top: 0.5rem solid gray;
-	border-right: 0.4rem solid transparent;
-	border-left: 0.4rem solid transparent;
-	margin-left: 10px;
-}
-.arrowRight {
-	border-top: 0.5rem solid gray;
-	border-right: 0.4rem solid transparent;
-	border-left: 0.4rem solid transparent;
-	margin-left: 10px;
+	padding: 10px 20px;
+	border-right: 1px solid gray;
 }
