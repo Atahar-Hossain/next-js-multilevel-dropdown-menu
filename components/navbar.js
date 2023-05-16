@@ -21,11 +21,11 @@ export default function Navbar() {
 		{
 			id: 7,
 			title: "About",
-			submenu: [
-				{ id: 7.1, title: "About Us" },
-				{ id: 7.2, title: "Mission" },
-				{ id: 7.3, title: "Vission" },
-			],
+			// submenu: [
+			// 	{ id: 7.1, title: "About Us" },
+			// 	{ id: 7.2, title: "Mission" },
+			// 	{ id: 7.3, title: "Vission" },
+			// ],
 		},
 	];
 

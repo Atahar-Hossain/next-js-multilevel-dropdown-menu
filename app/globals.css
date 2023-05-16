@@ -26,4 +26,42 @@ body ul li {
 	color: white;
 	padding: 10px 20px;
 	border-right: 1px solid gray;
+	cursor: pointer;
+}
+
+#submenuButton {
+	background-color: transparent;
+	border: none;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+.arrowDown {
+	border-top: 0.5rem solid gray;
+	border-right: 0.4rem solid transparent;
+	border-left: 0.4rem solid transparent;
+	margin-left: 10px;
+}
+.arrowRight {
+}
+.parentMenu {
+	position: relative;
+}
+.childMenu {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	left: 0px;
+	top: 37px;
+	min-width: 200px;
+	background-color: transparent !important;
+}
+.childMenu ul {
+}
+.childMenu li {
+	border: 1px solid gray;
+	width: 200px;
+	border-radius: 8px;
+	background-color: black;
+	text-align: center;
 }
