@@ -9,7 +9,16 @@ export default function Navbar() {
 			title: "Services",
 			submenu: [
 				{ id: 2.1, title: "Web Designing" },
-				{ id: 2.2, title: "Web Development" },
+				{
+					id: 2.2,
+					title: "Web Development",
+					submenu: [
+						{ id: 2.1, title: "Web Designing" },
+						{ id: 2.2, title: "Web Development" },
+						{ id: 2.3, title: "Digital Marketing" },
+						{ id: 2.6, title: "UI & UX Designing" },
+					],
+				},
 				{ id: 2.3, title: "Digital Marketing" },
 				{ id: 2.6, title: "UI & UX Designing" },
 			],

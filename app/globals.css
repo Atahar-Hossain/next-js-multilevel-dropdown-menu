@@ -43,6 +43,12 @@ body ul li {
 	margin-left: 10px;
 }
 .arrowRight {
+	border-left: 0.5rem solid gray;
+	border-bottom: 0.4rem solid transparent;
+	border-top: 0.4rem solid transparent;
+	margin-left: 10px;
+}
+.arrowRight {
 }
 .parentMenu {
 	position: relative;
@@ -64,4 +70,9 @@ body ul li {
 	border-radius: 8px;
 	background-color: black;
 	text-align: center;
+}
+.childMenuStyle {
+	position: absolute;
+	left: 100%;
+	top: 0px;
 }
